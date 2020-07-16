@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef316173-39ac-417b-96d0-72fb13223cc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TopicFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/TopicFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +127,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/mews/captcha" />
+      <path value="$PROJECT_DIR$/vendor/summerblue/generator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1eSPqhhNX0GRJNJbRxvqvJJomZE" />
@@ -170,7 +176,7 @@
       <workItem from="1594740115473" duration="2441000" />
       <workItem from="1594745194040" duration="4639000" />
       <workItem from="1594825546261" duration="4515000" />
-      <workItem from="1594913505462" duration="998000" />
+      <workItem from="1594913505462" duration="1833000" />
     </task>
     <servers />
   </component>
