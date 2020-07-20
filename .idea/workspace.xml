@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef316173-39ac-417b-96d0-72fb13223cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/_topics.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/TopicRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TopicRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +182,8 @@
       <workItem from="1594740115473" duration="2441000" />
       <workItem from="1594745194040" duration="4639000" />
       <workItem from="1594825546261" duration="4515000" />
-      <workItem from="1594913505462" duration="5087000" />
+      <workItem from="1594913505462" duration="5275000" />
+      <workItem from="1595259029527" duration="1260000" />
     </task>
     <servers />
   </component>
@@ -194,10 +199,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1594919808623" />
-    <state x="468" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1594913505482">
+    <state x="468" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1595259029891">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="468" y="240" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1594913505482" />
+    <state x="468" y="240" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1595259029891" />
     <state x="243" y="24" width="752" height="807" key="find.popup" timestamp="1594747900669">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
