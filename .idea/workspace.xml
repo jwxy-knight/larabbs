@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef316173-39ac-417b-96d0-72fb13223cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Handlers/SlugTranslateHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/TopicPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/TopicPolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Observers/TopicObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/_topics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/_topics.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +141,9 @@
       <path value="$PROJECT_DIR$/vendor/summerblue/laravel-active" />
       <path value="$PROJECT_DIR$/vendor/mews/purifier" />
       <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/pinyin" />
     </include_path>
   </component>
   <component name="ProjectId" id="1eSPqhhNX0GRJNJbRxvqvJJomZE" />
@@ -188,7 +199,8 @@
       <workItem from="1594745194040" duration="4639000" />
       <workItem from="1594825546261" duration="4515000" />
       <workItem from="1594913505462" duration="5275000" />
-      <workItem from="1595259029527" duration="5412000" />
+      <workItem from="1595259029527" duration="5521000" />
+      <workItem from="1595511713167" duration="2507000" />
     </task>
     <servers />
   </component>
@@ -200,17 +212,17 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="171" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1594568160742" />
-    <state x="1218" y="352" key="NewPhpFileDialog" timestamp="1594919808623">
+    <state x="1218" y="352" key="NewPhpFileDialog" timestamp="1595512067473">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1594919808623" />
-    <state x="468" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1595259029891">
+    <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1595512067473" />
+    <state x="468" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1595511873017">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="468" y="240" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1595259029891" />
-    <state x="243" y="24" width="752" height="807" key="find.popup" timestamp="1594747900669">
+    <state x="468" y="240" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1595511873017" />
+    <state x="243" y="24" width="752" height="807" key="find.popup" timestamp="1595514235813">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="243" y="24" width="752" height="807" key="find.popup/0.0.1549.831@0.0.1549.831" timestamp="1594747900669" />
+    <state x="243" y="24" width="752" height="807" key="find.popup/0.0.1549.831@0.0.1549.831" timestamp="1595514235813" />
   </component>
 </project>
