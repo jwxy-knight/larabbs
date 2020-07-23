@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef316173-39ac-417b-96d0-72fb13223cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/notifications/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/notifications/types/_topic_replied.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +199,7 @@
       <workItem from="1594825546261" duration="4515000" />
       <workItem from="1594913505462" duration="5275000" />
       <workItem from="1595259029527" duration="5521000" />
-      <workItem from="1595511713167" duration="9365000" />
+      <workItem from="1595511713167" duration="9989000" />
     </task>
     <servers />
   </component>
@@ -205,10 +211,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="171" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1594568160742" />
-    <state x="1218" y="352" key="NewPhpFileDialog" timestamp="1595519206912">
+    <state x="1218" y="352" key="NewPhpFileDialog" timestamp="1595522450248">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1595519206912" />
+    <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1595522450248" />
     <state x="468" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1595511873017">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
