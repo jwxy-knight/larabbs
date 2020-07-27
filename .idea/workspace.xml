@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef316173-39ac-417b-96d0-72fb13223cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/administrator/categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/administrator/replies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/administrator/topics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/administrator/settings/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/administrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/administrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,13 +166,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiang\Code\larabbs\config\administrator\settings" />
+      <recent name="C:\Users\jiang\Code\larabbs\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jiang\Code\larabbs\public\uploads\images\topics" />
       <recent name="C:\Users\jiang\Code\larabbs\resources\editor\css" />
       <recent name="C:\Users\jiang\Code\larabbs\resources\editor\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jiang\Code\larabbs\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,7 +201,7 @@
       <workItem from="1594913505462" duration="5275000" />
       <workItem from="1595259029527" duration="5521000" />
       <workItem from="1595511713167" duration="11057000" />
-      <workItem from="1595862396931" duration="3748000" />
+      <workItem from="1595862396931" duration="4267000" />
     </task>
     <servers />
   </component>
@@ -213,10 +213,10 @@
       <screen x="0" y="0" width="1549" height="831" />
     </state>
     <state x="555" y="171" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1594568160742" />
-    <state x="1218" y="352" key="NewPhpFileDialog" timestamp="1595869812787">
+    <state x="1218" y="352" key="NewPhpFileDialog" timestamp="1595870349218">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1595869812787" />
+    <state x="1218" y="352" key="NewPhpFileDialog/0.0.1549.831@0.0.1549.831" timestamp="1595870349218" />
     <state x="468" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1595862397787">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
