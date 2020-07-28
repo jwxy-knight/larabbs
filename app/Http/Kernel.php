@@ -36,7 +36,8 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \App\Http\Middleware\EnsureEmailIsVerified::class
+            \App\Http\Middleware\EnsureEmailIsVerified::class,
+            \App\Http\Middleware\RecordLastActivedTime::class,
         ],
 
         'api' => [
@@ -89,5 +90,7 @@ class Kernel extends HttpKernel
 
         // 一小时执行一次『活跃用户』数据生成的命令
         $schedule->command('larabbs:calculate-active-user')->hourly();
+        // 每日零时执行一次
+        $schedule->command('larabbs:sync-user-actived-at')->dailyAt('00:00');
     }
 }
